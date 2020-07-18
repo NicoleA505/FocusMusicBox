@@ -1,0 +1,535 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar {
+    padding: 15px 110px;
+}
+
+.wrapperHeader {
+    background: linear-gradient(
+                    /* rgba(230, 0, 3, .5), 
+                    rgba(230, 0, 3, .2)),  */
+                     rgba(0, 0, 0, .6),
+                     rgba(255, 255, 255, .6)),
+                     url("./images/wrapperImage.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoHeader {
+    text-align: center;
+}
+
+.infoHeader h1 {
+    font-family: "Pacifico", serif;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 4rem;
+}
+
+.infoHeader p {
+    font-size: 1.3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    text-shadow: 0.75px 0.75px 0.75px #000;
+    padding-top: 30px;
+}
+
+/* MAIN WRAPPER  */
+
+.mainWrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.note {
+    background-image: url("./images/noteLogoFlipped.png");
+}
+
+.note2 {
+    background-image: url("./images/noteLogo.png");
+}
+
+.noteWhite {
+    background-image: url("./images/noteLogoFlippedWhite.png");
+}
+
+.note2White {
+    background-image: url("./images/noteLogoWhite.png");
+}
+
+.notes {
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+/* Section Info */
+
+.music {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+    font-family: sans-serif;
+}
+
+.info {
+    text-align: right;
+    flex-grow: 3;
+    position: relative;
+    top: -50px;
+    font-size: 1.1rem;
+}
+
+#computerScreen {
+    height: 100%;
+    width: 90%;
+    flex-grow: 1;
+}
+
+.computer .note {
+    height: 40px;
+    width: 40px;
+    top: 120px;
+    left: -10%;
+}
+
+ .computer .note2 {
+    top: 0px;
+    left: 90%;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+.accent {
+    border: 2px solid #dc3545;
+    height: 0px;
+    width: 15%;
+    position: relative;
+    left: 85%;
+    margin-bottom: 10px;
+}
+
+.info h2 {
+    /* color: #dc3545; */
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+.info p:first-of-type {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.info p {
+    margin: 0px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #3e3e3e;
+    font-size: 1.8rem;
+}
+.info span {
+    color: #dc3545;
+}
+
+
+/* List of Benefits */
+
+.benefits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listWrapper {
+    font-family: "Montserrat", sans-serif;
+}
+
+.listWrapper .note2 {
+    height: 40px;
+    width: 40px;
+    left: 100%;
+}
+
+.listWrapper .note {
+    height: 40px;
+    width: 40px;
+    left: -100%;
+    top: 350px;
+    position: relative;
+}
+
+.listWrapper h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.titleAccent {
+    border: 2px solid #dc3545;
+    height: 0px;
+    width: 20%;
+    margin: 20px auto 60px;
+}
+
+.listWrapper .row {
+    margin: 0 auto;
+}
+
+.listWrapper li {
+    list-style-type: none;
+    height: 60px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.listWrapper i {
+    color: #dc3545;
+    margin-right: 30px;
+}
+
+.presentWrapper {
+    /* border-radius: 10px; */
+    width: 60%;
+    margin: 0 auto;
+    color: #3e3e3e;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.accentPresenting {
+    border: 2px solid #dc3545;
+    height: 0px;
+    width: 30%;
+    margin: 40px auto;
+}
+
+.signature {
+    display: inline-block;
+    position: relative;
+    left: 60%;
+    margin: 30px 0px 0px;
+    font-style: italic;
+    color: #dc3545;
+}
+
+/* SLIDESHOW */
+
+.slideShowWrapper {
+    width: 100%;
+    /* background: linear-gradient(
+                     rgba(230, 0, 3, 0.75),
+                     rgba(230, 0, 3, 0.75)),
+                     url('./images/musicNotesWrapper.jpg'); */
+    background: linear-gradient(
+                 rgba(0, 0, 0, 0.8),
+                 rgba(0, 0, 0, 0.8)),
+                   url('./images/musicNotesWrapper.jpg');
+    padding: 60px 0px 100px;
+    background-position: center;
+    background-size: cover;
+    /* background-color: red; */
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideShowWrapper .noteWhite {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    transform: rotate(15deg);
+    top: -20px;
+    left: -70px;
+}
+
+.slideShowWrapper .note2White {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 75%;
+    left: 86%;
+    transform: rotate(35deg);
+}
+
+.slideShowWrapper .carousel {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.slideShowWrapper h2 {
+    padding: 20px 0x 15px;
+    margin: 20px 0px 0px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.slideShowWrapper .titleAccent {
+    margin: 20px auto;
+}
+
+.slideShowWrapper .headline {
+    width: 50%;
+    margin: 20px auto 50px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.controls {
+    color: red;
+}
+
+.controlWrapper {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control-prev {
+    left: -15%;
+}
+
+.carousel-control-next {
+    left: 100%;
+}
+
+/* PLAYLISTS SECTION */
+
+.playlistsSection {
+    font-family: "Montserrat", sans-serif;
+    margin: 60px 0px;
+}
+
+.playlistsWrapper h2 {
+    font-size: 2.2rem;
+}
+
+.playlistsWrapper h2 {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.playlistList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.playlistList li {
+    list-style-type: none;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.playlistList i, .playlistList img {
+    margin-right: 10px;
+}
+
+.playlists {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.playlists h3 {
+    font-size: 1.5rem;
+    width: 70%;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.iconImage {
+    width: 24px;
+    display: inline-block;
+}
+
+.latinAmericaIcon {
+    display: inline-block;
+}
+
+.latinAmericaIcon .brazil {
+    margin: 0px;
+}
+
+.tabMenuButtons {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabMenuButtons button {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px 10px 0px 0px;
+    width: 280px;
+}
+
+.tabContentWrapper {
+    border: 1px solid #dc3545;
+}
+
+.tabContent {
+    display: none; 
+}
+
+.active {
+    display: block;
+}
+
+.andMore {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 30px 0px 0px;
+}
+
+
+/* HARDWARE SECTION */
+
+.hardwareSpecsWrapper h3{
+    width: 80%;
+    margin: 30px auto 0px;
+    text-align: center;
+}
+
+.hardwareWrapper {
+    display: flex;
+}
+
+.hardwareText {
+    width: 50%;
+    padding-right: 15px;
+}
+
+.hardwareSpecs {
+    width: 50%;
+    padding-left: 15px;
+}
+
+.specs button {
+    margin: 0 auto 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.specsText {
+    visibility: hidden;
+    /* display: none; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spec {
+    width: 45%;
+    margin-right: 10px;
+}
+
+.specTitle {
+    margin: 0px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.specDesc {
+    font-size: 0.9rem;
+}
+
+.leftAccent {
+    border: 1px solid #dc3545;
+    width: 35%;
+    margin: 0px 0px 10px;
+    border-radius: 5px;
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #000;
+    padding: 30px 40px 0px;
+    margin: 30px 0px 0px;
+}
+
+.footerWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logoFooter {
+    background-image: url('images/iconOnly.png');
+    background-position: center;
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+footer li {
+    list-style-type: none;
+    color: #fff;
+}
+
+.contactInfo i {
+    margin-right: 10px;
+}
+
+.contactInfo a {
+    color: #fff;
+}
+
+.name {
+    font-size: 1.3rem;
+}
+
+.iconAttributes, .iconAttributes a {
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+
+/* @media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+        }
+    } */
