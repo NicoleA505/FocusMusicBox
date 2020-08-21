@@ -42,11 +42,11 @@ const tabMenuDisplay = (event) => {
 }
 
 
-showSpecsToggle.addEventListener('click', () => {
-    if (specsToggle) {
-        specsText.style.visibility = "visible";
-    } else {
-        specsText.style.visibility = "hidden";
-    }
-    specsToggle = !specsToggle;
-});
+// showSpecsToggle.addEventListener('click', () => {
+//     if (specsToggle) {
+//         specsText.style.visibility = "visible";
+//     } else {
+//         specsText.style.visibility = "hidden";
+//     }
+//     specsToggle = !specsToggle;
+// });

@@ -178,7 +178,7 @@ html {
     height: 40px;
     width: 40px;
     left: -100%;
-    top: 350px;
+    top: 450px;
     position: relative;
 }
 
@@ -367,9 +367,12 @@ html {
     text-align: center;
 }
 
+li.playList {
+    display: flex;
+}
+
 .iconImage {
     width: 24px;
-    display: inline-block;
 }
 
 .latinAmericaIcon {
@@ -388,11 +391,15 @@ html {
 
 .tabMenuButtons button {
     background-color: #dc3545;
-    border: none;
+    border: 2px solid #bd2130;
     color: #fff;
     padding: 10px 25px;
     border-radius: 10px 10px 0px 0px;
     width: 280px;
+}
+
+.tabMenuButtons button:hover {
+    background-color: #a71d2a;
 }
 
 .tabContentWrapper {
@@ -416,6 +423,10 @@ html {
 
 /* HARDWARE SECTION */
 
+.hardware {
+    margin: 100px 0px;
+}
+
 .hardwareSpecsWrapper h3{
     width: 80%;
     margin: 30px auto 0px;
@@ -424,36 +435,28 @@ html {
 
 .hardwareWrapper {
     display: flex;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .hardwareText {
-    width: 50%;
+    /* width: 50%; */
     padding-right: 15px;
 }
 
 .hardwareSpecs {
-    width: 50%;
+    /* width: 50%; */
     padding-left: 15px;
 }
 
-.specs button {
-    margin: 0 auto 10px;
-    background-color: #dc3545;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-}
 
 .specsText {
-    visibility: hidden;
-    /* display: none; */
     display: flex;
     flex-wrap: wrap;
 }
 
 .spec {
-    width: 45%;
+    /* width: 45%; */
     margin-right: 10px;
 }
 
@@ -516,7 +519,7 @@ footer li {
 }
 
 .iconAttributes, .iconAttributes a {
-    color: #fff;
+    color: #3e3e3e;
     font-size: 10px;
     text-align: center;
 }
